@@ -125,6 +125,8 @@ class Gem::Ext::Builder
       Gem::Ext::RakeBuilder
     when /CMakeLists.txt/ then
       Gem::Ext::CmakeBuilder
+    when /Cargo.toml/ then
+      Gem::Ext::CargoBuilder
     else
       build_error("No builder for extension '#{extension}'")
     end
