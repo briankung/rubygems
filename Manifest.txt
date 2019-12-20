@@ -384,6 +384,7 @@ lib/rubygems/exceptions.rb
 lib/rubygems/ext.rb
 lib/rubygems/ext/build_error.rb
 lib/rubygems/ext/builder.rb
+lib/rubygems/ext/cargo_builder.rb
 lib/rubygems/ext/cmake_builder.rb
 lib/rubygems/ext/configure_builder.rb
 lib/rubygems/ext/ext_conf_builder.rb
@@ -618,6 +619,7 @@ test/rubygems/test_gem_dependency_list.rb
 test/rubygems/test_gem_dependency_resolution_error.rb
 test/rubygems/test_gem_doctor.rb
 test/rubygems/test_gem_ext_builder.rb
+test/rubygems/test_gem_ext_cargo_builder.rb
 test/rubygems/test_gem_ext_cmake_builder.rb
 test/rubygems/test_gem_ext_configure_builder.rb
 test/rubygems/test_gem_ext_ext_conf_builder.rb
